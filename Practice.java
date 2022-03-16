@@ -7,6 +7,13 @@ public class Practice {
         comment as we 
         can see here
         */
-    }
+        String name = "Mohamed";
+        int age = 25;
+        double score = 16.61;
+        char group = 'S';
+        boolean online = true;
+
+        System.out.println("My name is "+ name + " and I am " + age + " years old.");
+        }
     
 }
