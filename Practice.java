@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class Practice {
     public static void main(String[] args) {
@@ -14,6 +15,13 @@ public class Practice {
         boolean online = true;
 
         System.out.println("My name is "+ name + " and I am " + age + " years old.");
+        
+        //getting user input 
+        Scanner myVar = new Scanner(System.in);
+        String inputvar = myVar.nextLine();
+        System.out.println("write something here: " + inputvar);
+        in.close();
+
         }
     
 }
