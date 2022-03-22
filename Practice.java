@@ -22,6 +22,12 @@ public class Practice {
         System.out.println("write something here: " + inputvar);
         in.close();
 
+        //Problem using + A bartender sold 64 bottles of lemonade and 23 bottles of fanta. You need to calculate how many total bottles are sold. :
+        int lemonade = 64;
+        int fanta = 23;
+        int total = lemonade + fanta ;
+        System.out.println(total);
+        
         }
     
 }
