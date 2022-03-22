@@ -27,7 +27,16 @@ public class Practice {
         int fanta = 23;
         int total = lemonade + fanta ;
         System.out.println(total);
-        
-        }
+
+        //Problem: sort by Km and M from a normal distance from meters
+        Scanner read = new Scanner(System.in);
+       int distance = read.nextInt();
+        read.close();
+       int km = distance / 1000;
+       int m = distance % 1000;
+       System.out.println(km + "Kelometers \n" + m + "meters");
+   
+}
+
     
 }
