@@ -26,7 +26,7 @@ public class Practice {
         int lemonade = 64;
         int fanta = 23;
         int total = lemonade + fanta ;
-        System.out.println(total);
+        System.out.println(--total); //one was free. removed 1 using decremenent
 
         //Problem: sort by Km and M from a normal distance from meters
         Scanner read = new Scanner(System.in);
