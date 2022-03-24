@@ -18,6 +18,8 @@ public class Practice {
         
         //getting user input 
         Scanner read = new Scanner(System.in);
+
+        System.out.println("enter any word or text:");
         String inputvar = read.nextLine();
         System.out.println("write something here: " + inputvar);
     
@@ -30,11 +32,12 @@ public class Practice {
         System.out.println(--total); //one was free. removed 1 using decremenent
 
         //Problem: sort by Km and M from a normal distance from meters
+        System.out.println("enter at least a 4 digits integer to be sorted to Km and M:");
        int distance = read.nextInt();
        
        int km = distance / 1000;
        int m = distance % 1000;
-       System.out.println(km + "Kelometers \n" + m + "meters");
+       System.out.println(km + " Kelometers \n" + m + " meters");
 
        /* Probem using logical statments:
     You are an administrator at a football club who must categorize already played games on the team's website.
@@ -45,9 +48,11 @@ public class Practice {
     Complete the program so that if the match is suspended (the 1st input is "true"), it will output "Suspended".
     If the match is not suspended ( the1st output is false), the following statuses should be set depending on the match result: "Won", "Lost" and "Draw".*/
 
-   
+    System.out.println("enter true or false to indicate your team is suspended or not:");
        boolean isSuspended = read.nextBoolean();
+       System.out.println("enter our team score (integer):");
        int ourScore = read.nextInt();
+       System.out.println("enter their team score:");
        int theirScore = read.nextInt();
       
        if(isSuspended){
@@ -69,7 +74,7 @@ public class Practice {
         You can win cash by playing the lottery. If the ticket number is a multiple of 10 and 9, the program outputs "You won $200".
         If it is a multiple of 4 or 6, the program outputs "You won $50". In all other cases, there is no prize and the output is "Try again".*/
 
-      
+        System.out.println("enter any integer to see if you win the lottery:");
        int number = read.nextInt();
        
 
