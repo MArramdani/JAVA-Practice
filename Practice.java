@@ -87,7 +87,29 @@ public class Practice {
        else{
            System.out.println("Try again");
        }
-   
+       //Switch statmenets 2 methods
+
+       //method1 
+       int day = 15;
+
+       switch (day%7){
+            case 1,2,3,4,5:
+                System.out.println("Weekday");
+                break;
+            case 6,7:
+                System.out.println("Weekend");
+                break;
+            default:
+                System.out.println("unknown day");
+       }
+
+       //method2
+       String day_type = switch (day%7) {
+           case 1,2,3,4,5 -> "Weekday 2.0";
+           case 6,7 -> "Weekend 2.0";
+           default -> "unknown day 2.0";
+       };
+       System.out.println(day_type);
 
        read.close();
 }
