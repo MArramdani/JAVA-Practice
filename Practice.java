@@ -111,7 +111,18 @@ public class Practice {
        };
        System.out.println(day_type);
 
+       //Factorial of any number entered
+            System.out.println("enter a number to calculate its factorial");
+            int number_1 = read.nextInt();
+            int fact = 1;
+            while (number_1>1){
+                fact=fact*number_1;
+                number_1--;
+            }
+            System.out.println("your result is: "+fact);
+
        read.close();
+
 }
 
     
