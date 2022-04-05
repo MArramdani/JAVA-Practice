@@ -121,6 +121,14 @@ public class Practice {
             }
             System.out.println("your result is: "+fact);
 
+        //For loop example
+            for(int i=0;i<3;i++){
+                System.out.println("hello Number. "+i);
+            }
+
+
+
+
        read.close();
 
 }
