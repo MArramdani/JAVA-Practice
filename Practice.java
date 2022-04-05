@@ -125,13 +125,17 @@ public class Practice {
             for(int i=0;i<3;i++){
                 System.out.println("hello Number. "+i);
             }
-
-
-
+        //using do while loop to guess numbers with the advantage of the loop to run at least once
+            int password;
+            do{
+                System.out.println("guess a number between 0 and 9");
+               password=read.nextInt();
+            }while(password!=3);
+            System.out.println("Well done!");
+	
 
        read.close();
 
-}
+}}
 
     
-}
