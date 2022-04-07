@@ -138,12 +138,20 @@ public class Practice {
             You take a loan from a friend and need to calculate how much you will owe him after 3 months.
             You are going to pay him back 10% of the remaining loan amount each month.
             Create a program that takes the loan amount as input, calculates and outputs the remaining amount after 3 months.*/
-            System.out.println("Enter an amount to remove 10% each time")
+            System.out.println("Enter an amount to remove 10% each time");
             int amount = read.nextInt();
 	        for(int i=0;i<3;i++){
 		        amount*=0.9;
 	        }
 	        System.out.println(amount);
+
+            //arrays
+
+            int[] arr = new int[4];
+            arr[0]=2;
+
+            String[] letters = {"A","B","C","D"};
+            System.out.println("the letter at index 2 is: "+ letters[arr[0]]);
 
        read.close();
 
