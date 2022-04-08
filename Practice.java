@@ -145,13 +145,31 @@ public class Practice {
 	        }
 	        System.out.println(amount);
 
-            //arrays
+            //arrays basics
 
             int[] arr = new int[4];
             arr[0]=2;
 
             String[] letters = {"A","B","C","D"};
             System.out.println("the letter at index 2 is: "+ letters[arr[0]]);
+
+            //Summing elements in arrays
+
+            /* a program that takes the length of the array as the first input, creates it, and then takes the next inputs as elements of the array. 
+            then go through the array and calculate the sum of the numbers that are multiples of 4.*/
+            System.out.println("enter lengh of array to calculate sum of numbers that are multiples of 4:");
+            int length = read.nextInt();
+            int[] array =  new int[length];
+            int sum=0;
+            for (int i = 0; i < length; i++) {
+                System.out.println("Enter number in place "+ i +" of the array");
+                array[i] = read.nextInt();
+                if(array[i]%4==0)
+                    sum+=array[i];
+       }
+       System.out.println("the sum is: "+sum);
+
+
 
        read.close();
 
