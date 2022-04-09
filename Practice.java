@@ -177,9 +177,19 @@ public class Practice {
              System.out.println("the sum of all entries is: "+sum);
 
 
+             //handling multi-dimensional arrays: output the content of a 3x3 matrix with numbers 
 
-             
-
+            int[][] matrix = {
+                {8, 1, 6},
+                {3, 5, 7},
+                {4, 9, 0},
+            };
+            System.out.println("here is the output of the matrix 3x3: ");
+            for(int i=0;i<3;i++){
+                for(int t: matrix[i]){
+                    System.out.println(t);
+                }
+            }
 
 
 
