@@ -192,8 +192,25 @@ public class Practice {
             }
 
 
+            /*Problem: Reverse a String
+                Write a program to take a string as input and output its reverse.
+            The given code takes a string as input and converts it into a char array, which contains letters of the string as its elements.*/
+
+            System.out.print(" enter a sentence: ");
+            Scanner read1 = new Scanner(System.in);
+            String text = read1.nextLine();
+	    	char[] arr2 = text.toCharArray();
+	    	char[] result = new char[arr2.length];
+	    	for(int i=0; i<arr2.length;i++){
+	    		result[i]=arr2[arr2.length-i-1];
+	    	}
+    		String reverse = new String(result);
+	    	System.out.println("the reverese of "+ text +" is: "+reverse);
+
+
 
        read.close();
+       read1.close();
 
 }}
 
