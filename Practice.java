@@ -166,8 +166,20 @@ public class Practice {
                 array[i] = read.nextInt();
                 if(array[i]%4==0)
                     sum+=array[i];
-       }
-       System.out.println("the sum is: "+sum);
+             }
+             System.out.println("the sum of multiples of 4 is: "+sum);
+
+             //using enhanced for loop to calculate the sum of every array entry
+             sum=0;
+             for(int t: array){
+                sum+=t;
+             }
+             System.out.println("the sum of all entries is: "+sum);
+
+
+
+             
+
 
 
 
