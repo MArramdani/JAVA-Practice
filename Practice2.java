@@ -1,6 +1,5 @@
 import java.util.Scanner;
-
-public class Practice2 {
+public class Practice2{
 //hello sayer
     static void sayHello(){
         System.out.println("Hellooo world.");
@@ -38,7 +37,7 @@ public class Practice2 {
     }
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException{
         Scanner read=new Scanner(System.in);
         /***************************************************************** */
         sayHello();
@@ -56,12 +55,13 @@ public class Practice2 {
 
 
         /***************************************************************** */
+        Animal cat= new Animal();
+        for(int i=0;i<4;i++){
+        cat.meow();
+        Thread.sleep(500);
+        }
 
 
-
-
-
-        read.close();
     } //end of main
 } //end of class
 
