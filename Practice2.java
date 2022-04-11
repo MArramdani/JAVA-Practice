@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Practice2{
+ class Practice2{
 //hello sayer
     static void sayHello(){
         System.out.println("Hellooo world.");
@@ -61,6 +61,10 @@ public class Practice2{
         Thread.sleep(500);
         }
         cat.age=2;
+        cat.setName("tom");
+        System.out.println("the name of your cat is: "+cat.getName());
+
+        /**************************************************************** */
 
     } //end of main
 } //end of class

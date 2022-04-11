@@ -7,5 +7,12 @@ public class Animal{
         System.out.println("Meow!!!");
     }//end of meow
 
+    public void setName(String n){
+        this.name=n;
+    }
+    public String getName(){
+        return name;
+    }
+
 
 }//end of class
