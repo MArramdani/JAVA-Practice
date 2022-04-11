@@ -65,6 +65,8 @@ import java.util.Scanner;
         System.out.println("the name of your cat is: "+cat.getName());
 
         /**************************************************************** */
+        Animal dog=new Animal("doggo", 5, 100);
+        System.out.println("your newly constructed dog object has the name: "+ dog.getName());
 
     } //end of main
 } //end of class
