@@ -60,7 +60,7 @@ public class Practice2{
         cat.meow();
         Thread.sleep(500);
         }
-
+        cat.age=2;
 
     } //end of main
 } //end of class
