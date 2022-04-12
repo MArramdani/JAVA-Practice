@@ -68,6 +68,13 @@ import java.util.Scanner;
         Animal dog=new Animal("doggo", 5, 100);
         System.out.println("your newly constructed dog object has the name: "+ dog.getName());
 
+        /******************************************************************/
+        
+        double num=1.96;
+        System.out.println("the number "+num +" raised the power of 2 is: "+Math.pow(num, 2)+", using the floor function we would get: "+Math.floor(num)+" while ceil would give us "+ Math.ceil(num));
+
+        /******************************************************************* */
+
     } //end of main
 } //end of class
 
