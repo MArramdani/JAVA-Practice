@@ -1,18 +1,27 @@
 public class Animal{
-    String name;
-    int age;
-    double height;
+    public String name;
+    public int age;
+    public double height;
+    public static int CREATED=0;
+
+    /****************************************** */
 
     public Animal(String name, int age, double height){
         this.name=name;
         this.age=age;
         this.height=height;
-    }//End of 3 parameters constructoer
+        CREATED++;
+    }//End of 3 parameters constructer
 
     public Animal(){
-        
-    }
+        CREATED++;
+    }//End of 0 parameters constructer
 
+
+    /****************************************** */
+    public static void hello(){
+        System.out.println("hello using static method");
+    }
 
     public void meow(){
         System.out.println("Meow!!!");

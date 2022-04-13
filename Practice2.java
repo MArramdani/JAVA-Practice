@@ -74,7 +74,11 @@ import java.util.Scanner;
         System.out.println("the number "+num +" raised the power of 2 is: "+Math.pow(num, 2)+", using the floor function we would get: "+Math.floor(num)+" while ceil would give us "+ Math.ceil(num));
 
         /******************************************************************* */
+        Animal.hello();
+        System.out.println("you created "+Animal.CREATED+" instances of Animal class");
 
+
+        read.close();
     } //end of main
 } //end of class
 
