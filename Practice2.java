@@ -77,6 +77,14 @@ import java.util.Scanner;
         Animal.hello();
         System.out.println("you created "+Animal.CREATED+" instances of Animal class");
 
+        /***************************************************************** */
+        System.out.println(Animal.PI + " is the value of PI saved as a static final variable, which isnt variable anymore.");
+
+
+
+
+
+
 
         read.close();
     } //end of main

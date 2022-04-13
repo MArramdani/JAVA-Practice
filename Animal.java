@@ -3,6 +3,7 @@ public class Animal{
     public int age;
     public double height;
     public static int CREATED=0;
+    public static final double PI=3.14;
 
     /****************************************** */
 
