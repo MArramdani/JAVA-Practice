@@ -1,4 +1,4 @@
-package src;
+package myApp;
 public class Animal{
     public String name;
     public int age;

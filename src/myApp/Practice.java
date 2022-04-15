@@ -1,4 +1,5 @@
-package src;
+package myApp;
+
 import java.util.Scanner;
 
 public class Practice {

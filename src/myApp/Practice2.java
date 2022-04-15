@@ -1,6 +1,7 @@
-package src;
+package myApp;
+
 import java.util.Scanner;
-public class Practice2{
+ class Practice2{
 //hello sayer
     static void sayHello(){
         System.out.println("Hellooo world.");
@@ -66,7 +67,28 @@ public class Practice2{
         System.out.println("the name of your cat is: "+cat.getName());
 
         /**************************************************************** */
+        Animal dog=new Animal("doggo", 5, 100);
+        System.out.println("your newly constructed dog object has the name: "+ dog.getName());
 
+        /******************************************************************/
+        
+        double num=1.96;
+        System.out.println("the number "+num +" raised the power of 2 is: "+Math.pow(num, 2)+", using the floor function we would get: "+Math.floor(num)+" while ceil would give us "+ Math.ceil(num));
+
+        /******************************************************************* */
+        Animal.hello();
+        System.out.println("you created "+Animal.CREATED+" instances of Animal class");
+
+        /***************************************************************** */
+        System.out.println(Animal.PI + " is the value of PI saved as a static final variable, which isnt variable anymore.");
+
+
+
+
+
+
+
+        read.close();
     } //end of main
 } //end of class
 
