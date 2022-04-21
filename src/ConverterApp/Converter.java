@@ -1,7 +1,5 @@
-
-package myApp;
-
-class Converter {
+package ConverterApp;
+public class Converter {
         public Converter() {
     }
 
